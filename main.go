@@ -9,7 +9,16 @@ import (
 	otp "github.com/hgfischer/go-otp"
 )
 
-var version string = "0.9"
+//var version, gitrev string
+var (
+	version string = "1.0"
+	gitrev  string
+)
+
+func init() {
+	//version = "1.0 "
+}
+
 const TOKEN_ENV_NAME = "TOTP_TOKEN"
 
 func main() {
