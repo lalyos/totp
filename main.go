@@ -12,13 +12,9 @@ import (
 
 //var version, gitrev string
 var (
-	version string = "1.0"
+	version string = "0.1.0"
 	gitrev  string
 )
-
-func init() {
-	//version = "1.0 "
-}
 
 const TOKEN_ENV_NAME = "TOTP_TOKEN"
 const usage = `
